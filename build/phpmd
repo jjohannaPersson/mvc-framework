@@ -1,0 +1,3 @@
+C:\Users\jjoha\dbwebb-kurser\mvc\me\framework\app\src\Game21\Game21.php:73	The method quitRound uses an else expression. Else clauses are basically not necessary and you can simplify the code by not using them.
+C:\Users\jjoha\dbwebb-kurser\mvc\me\framework\app\src\Kernel.php:14	Avoid assigning values to variables in if clauses and the like (line '22', column '27').
+C:\Users\jjoha\dbwebb-kurser\mvc\me\framework\app\src\Kernel.php:27	Avoid assigning values to variables in if clauses and the like (line '34', column '27').
