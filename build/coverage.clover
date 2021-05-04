@@ -1,16 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1619766538">
-  <project timestamp="1619766538">
-    <file name="C:\Users\jjoha\dbwebb-kurser\mvc\me\framework\app\config\bundles.php">
+<coverage generated="1620130242">
+  <project timestamp="1620130242">
+    <file name="C:\Users\jjoha\dbwebb-kurser\mvc\me\orm\app\config\bundles.php">
       <line num="4" type="stmt" count="0"/>
       <metrics loc="16" ncloc="16" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="1" coveredelements="0"/>
     </file>
-    <file name="C:\Users\jjoha\dbwebb-kurser\mvc\me\framework\app\config\preload.php">
+    <file name="C:\Users\jjoha\dbwebb-kurser\mvc\me\orm\app\config\preload.php">
       <line num="3" type="stmt" count="0"/>
       <line num="4" type="stmt" count="0"/>
       <metrics loc="5" ncloc="5" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="2" coveredelements="0"/>
     </file>
-    <file name="C:\Users\jjoha\dbwebb-kurser\mvc\me\framework\app\src\Controller\DiceController.php">
+    <file name="C:\Users\jjoha\dbwebb-kurser\mvc\me\orm\app\src\Controller\BookController.php">
+      <class name="App\Controller\BookController" namespace="global">
+        <metrics complexity="3" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="0" elements="18" coveredelements="0"/>
+      </class>
+      <line num="16" type="method" name="index" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="18" type="stmt" count="0"/>
+      <line num="19" type="stmt" count="0"/>
+      <line num="26" type="method" name="createBook" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="30" type="stmt" count="0"/>
+      <line num="32" type="stmt" count="0"/>
+      <line num="33" type="stmt" count="0"/>
+      <line num="34" type="stmt" count="0"/>
+      <line num="35" type="stmt" count="0"/>
+      <line num="36" type="stmt" count="0"/>
+      <line num="39" type="stmt" count="0"/>
+      <line num="42" type="stmt" count="0"/>
+      <line num="44" type="stmt" count="0"/>
+      <line num="50" type="method" name="findAllBook" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="54" type="stmt" count="0"/>
+      <line num="55" type="stmt" count="0"/>
+      <line num="57" type="stmt" count="0"/>
+      <line num="58" type="stmt" count="0"/>
+      <metrics loc="61" ncloc="52" classes="1" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="0" elements="18" coveredelements="0"/>
+    </file>
+    <file name="C:\Users\jjoha\dbwebb-kurser\mvc\me\orm\app\src\Controller\DiceController.php">
       <class name="App\Controller\DiceController" namespace="global">
         <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="13" coveredstatements="0" elements="14" coveredelements="0"/>
       </class>
@@ -30,7 +54,7 @@
       <line num="31" type="stmt" count="0"/>
       <metrics loc="34" ncloc="34" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="13" coveredstatements="0" elements="14" coveredelements="0"/>
     </file>
-    <file name="C:\Users\jjoha\dbwebb-kurser\mvc\me\framework\app\src\Controller\Game21Controller.php">
+    <file name="C:\Users\jjoha\dbwebb-kurser\mvc\me\orm\app\src\Controller\Game21Controller.php">
       <class name="App\Controller\Game21Controller" namespace="global">
         <metrics complexity="13" methods="4" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="44" coveredstatements="0" elements="48" coveredelements="0"/>
       </class>
@@ -84,7 +108,7 @@
       <line num="90" type="stmt" count="0"/>
       <metrics loc="92" ncloc="91" classes="1" methods="4" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="44" coveredstatements="0" elements="48" coveredelements="0"/>
     </file>
-    <file name="C:\Users\jjoha\dbwebb-kurser\mvc\me\framework\app\src\Controller\HelloWorldController.php">
+    <file name="C:\Users\jjoha\dbwebb-kurser\mvc\me\orm\app\src\Controller\HelloWorldController.php">
       <class name="App\Controller\HelloWorldController" namespace="global">
         <metrics complexity="4" methods="4" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="0" elements="12" coveredelements="0"/>
       </class>
@@ -102,7 +126,34 @@
       <line num="41" type="stmt" count="0"/>
       <metrics loc="44" ncloc="38" classes="1" methods="4" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="0" elements="12" coveredelements="0"/>
     </file>
-    <file name="C:\Users\jjoha\dbwebb-kurser\mvc\me\framework\app\src\Dice\Dice.php">
+    <file name="C:\Users\jjoha\dbwebb-kurser\mvc\me\orm\app\src\Controller\HighScoreController.php">
+      <class name="App\Controller\HighScoreController" namespace="global">
+        <metrics complexity="4" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="18" coveredstatements="0" elements="21" coveredelements="0"/>
+      </class>
+      <line num="16" type="method" name="index" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="18" type="stmt" count="0"/>
+      <line num="19" type="stmt" count="0"/>
+      <line num="26" type="method" name="createHighscore" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="28" type="stmt" count="0"/>
+      <line num="29" type="stmt" count="0"/>
+      <line num="33" type="stmt" count="0"/>
+      <line num="35" type="stmt" count="0"/>
+      <line num="36" type="stmt" count="0"/>
+      <line num="39" type="stmt" count="0"/>
+      <line num="42" type="stmt" count="0"/>
+      <line num="44" type="stmt" count="0"/>
+      <line num="50" type="method" name="findAllHihgscore" visibility="public" complexity="2" crap="6" count="0"/>
+      <line num="54" type="stmt" count="0"/>
+      <line num="55" type="stmt" count="0"/>
+      <line num="57" type="stmt" count="0"/>
+      <line num="58" type="stmt" count="0"/>
+      <line num="59" type="stmt" count="0"/>
+      <line num="62" type="stmt" count="0"/>
+      <line num="64" type="stmt" count="0"/>
+      <line num="65" type="stmt" count="0"/>
+      <metrics loc="68" ncloc="59" classes="1" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="18" coveredstatements="0" elements="21" coveredelements="0"/>
+    </file>
+    <file name="C:\Users\jjoha\dbwebb-kurser\mvc\me\orm\app\src\Dice\Dice.php">
       <class name="App\Dice\Dice" namespace="global">
         <metrics complexity="3" methods="3" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="2" elements="8" coveredelements="3"/>
       </class>
@@ -116,7 +167,7 @@
       <line num="29" type="stmt" count="0"/>
       <metrics loc="31" ncloc="28" classes="1" methods="3" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="2" elements="8" coveredelements="3"/>
     </file>
-    <file name="C:\Users\jjoha\dbwebb-kurser\mvc\me\framework\app\src\Dice\DiceHand.php">
+    <file name="C:\Users\jjoha\dbwebb-kurser\mvc\me\orm\app\src\Dice\DiceHand.php">
       <class name="App\Dice\DiceHand" namespace="global">
         <metrics complexity="11" methods="6" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="25" coveredstatements="4" elements="31" coveredelements="5"/>
       </class>
@@ -153,7 +204,7 @@
       <line num="69" type="stmt" count="0"/>
       <metrics loc="71" ncloc="68" classes="1" methods="6" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="25" coveredstatements="4" elements="31" coveredelements="5"/>
     </file>
-    <file name="C:\Users\jjoha\dbwebb-kurser\mvc\me\framework\app\src\Dice\GraphicalDice.php">
+    <file name="C:\Users\jjoha\dbwebb-kurser\mvc\me\orm\app\src\Dice\GraphicalDice.php">
       <class name="App\Dice\GraphicalDice" namespace="global">
         <metrics complexity="2" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="2" elements="5" coveredelements="3"/>
       </class>
@@ -164,7 +215,48 @@
       <line num="21" type="stmt" count="0"/>
       <metrics loc="23" ncloc="20" classes="1" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="2" elements="5" coveredelements="3"/>
     </file>
-    <file name="C:\Users\jjoha\dbwebb-kurser\mvc\me\framework\app\src\Game21\Game21.php">
+    <file name="C:\Users\jjoha\dbwebb-kurser\mvc\me\orm\app\src\Entity\Book.php">
+      <class name="App\Entity\Book" namespace="global">
+        <metrics complexity="9" methods="9" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="13" coveredstatements="0" elements="22" coveredelements="0"/>
+      </class>
+      <line num="40" type="method" name="getId" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="42" type="stmt" count="0"/>
+      <line num="45" type="method" name="getName" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="47" type="stmt" count="0"/>
+      <line num="50" type="method" name="setName" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="52" type="stmt" count="0"/>
+      <line num="54" type="stmt" count="0"/>
+      <line num="57" type="method" name="getIsbn" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="59" type="stmt" count="0"/>
+      <line num="62" type="method" name="setIsbn" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="64" type="stmt" count="0"/>
+      <line num="66" type="stmt" count="0"/>
+      <line num="69" type="method" name="getAuthor" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="71" type="stmt" count="0"/>
+      <line num="74" type="method" name="setAuthor" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="76" type="stmt" count="0"/>
+      <line num="78" type="stmt" count="0"/>
+      <line num="81" type="method" name="getPic" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="83" type="stmt" count="0"/>
+      <line num="86" type="method" name="setPic" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="88" type="stmt" count="0"/>
+      <line num="90" type="stmt" count="0"/>
+      <metrics loc="92" ncloc="72" classes="1" methods="9" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="13" coveredstatements="0" elements="22" coveredelements="0"/>
+    </file>
+    <file name="C:\Users\jjoha\dbwebb-kurser\mvc\me\orm\app\src\Entity\HighScore.php">
+      <class name="App\Entity\HighScore" namespace="global">
+        <metrics complexity="3" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="0" elements="7" coveredelements="0"/>
+      </class>
+      <line num="25" type="method" name="getId" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="27" type="stmt" count="0"/>
+      <line num="30" type="method" name="getScore" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="32" type="stmt" count="0"/>
+      <line num="35" type="method" name="setScore" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="37" type="stmt" count="0"/>
+      <line num="39" type="stmt" count="0"/>
+      <metrics loc="41" ncloc="30" classes="1" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="0" elements="7" coveredelements="0"/>
+    </file>
+    <file name="C:\Users\jjoha\dbwebb-kurser\mvc\me\orm\app\src\Game21\Game21.php">
       <class name="App\Game21\Game21" namespace="global">
         <metrics complexity="20" methods="12" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="35" coveredstatements="21" elements="47" coveredelements="25"/>
       </class>
@@ -217,7 +309,7 @@
       <line num="100" type="stmt" count="0"/>
       <metrics loc="102" ncloc="99" classes="1" methods="12" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="35" coveredstatements="21" elements="47" coveredelements="25"/>
     </file>
-    <file name="C:\Users\jjoha\dbwebb-kurser\mvc\me\framework\app\src\Game21\Player.php">
+    <file name="C:\Users\jjoha\dbwebb-kurser\mvc\me\orm\app\src\Game21\Player.php">
       <class name="App\Game21\Player" namespace="global">
         <metrics complexity="12" methods="9" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="19" coveredstatements="9" elements="28" coveredelements="13"/>
       </class>
@@ -251,7 +343,7 @@
       <line num="66" type="stmt" count="0"/>
       <metrics loc="68" ncloc="65" classes="1" methods="9" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="19" coveredstatements="9" elements="28" coveredelements="13"/>
     </file>
-    <file name="C:\Users\jjoha\dbwebb-kurser\mvc\me\framework\app\src\Kernel.php">
+    <file name="C:\Users\jjoha\dbwebb-kurser\mvc\me\orm\app\src\Kernel.php">
       <class name="App\Kernel" namespace="global">
         <metrics complexity="6" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="0" elements="17" coveredelements="0"/>
       </class>
@@ -274,6 +366,24 @@
       <line num="37" type="stmt" count="0"/>
       <metrics loc="38" ncloc="38" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="0" elements="17" coveredelements="0"/>
     </file>
-    <metrics files="11" loc="524" ncloc="502" classes="9" methods="43" coveredmethods="11" conditionals="0" coveredconditionals="0" statements="170" coveredstatements="38" elements="213" coveredelements="49"/>
+    <file name="C:\Users\jjoha\dbwebb-kurser\mvc\me\orm\app\src\Repository\BookRepository.php">
+      <class name="App\Repository\BookRepository" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="3" coveredelements="0"/>
+      </class>
+      <line num="17" type="method" name="__construct" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="19" type="stmt" count="0"/>
+      <line num="20" type="stmt" count="0"/>
+      <metrics loc="50" ncloc="17" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="3" coveredelements="0"/>
+    </file>
+    <file name="C:\Users\jjoha\dbwebb-kurser\mvc\me\orm\app\src\Repository\HighScoreRepository.php">
+      <class name="App\Repository\HighScoreRepository" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="3" coveredelements="0"/>
+      </class>
+      <line num="17" type="method" name="__construct" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="19" type="stmt" count="0"/>
+      <line num="20" type="stmt" count="0"/>
+      <metrics loc="50" ncloc="17" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="3" coveredelements="0"/>
+    </file>
+    <metrics files="17" loc="886" ncloc="749" classes="15" methods="63" coveredmethods="11" conditionals="0" coveredconditionals="0" statements="224" coveredstatements="38" elements="287" coveredelements="49"/>
   </project>
 </coverage>
