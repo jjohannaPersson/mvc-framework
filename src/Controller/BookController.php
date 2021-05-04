@@ -31,7 +31,7 @@ class BookController extends AbstractController
 
         $book = new Book();
         $book->setName('Baka med choklad');
-        $book->setIsbn(9789155268435);
+        $book->setIsbn('9789155268435');
         $book->setAuthor('Fredrik Nylén');
         $book->setPic('https://s2.adlibris.com/images/57372981/baka-med-choklad.jpg');
 
@@ -41,7 +41,7 @@ class BookController extends AbstractController
         // actually executes the queries (i.e. the INSERT query)
         $entityManager->flush();
 
-        return new Response('Saved new book with id '.$book->getId());
+        return new Response('Saved new book with id ' . $book->getId());
     }
 
     /**
